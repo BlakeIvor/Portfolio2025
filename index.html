@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blake Shea Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <div class="header">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile-pic">
+                <img src="./image_refs/sung.jpg" alt="Profile Picture">
+            </div>
+            <h2>Blakelvor</h2>
+            <p>CS & Interactive Media at Clark University</p>
+            <p>Experienced with Unity, C#, Python, and Java. Interested in XR, chatbots, RAG, APIs, automation, and software development</p>
+            <p>📍 Massachusetts</p>
+            <a href="mailto:blakeivorshea@gmail.com" style="color: inherit;" target="_blank"><p>📧 blakeivorshea@gmail.com</p></a>
+            <a href="https://www.linkedin.com/in/blake27" style="color: inherit;" target="_blank"><p>🔗 in/blake27</p></a>
+        </aside>
+
+        <main class="content">
+            <section id="projects">
+                <div class="project-card">
+                    <div class="project-info">
+                        <span class="project-date">August 2024 - Current</span>
+                        <h3>The Arcadia Project</h3>
+                        <p>Company: Avilaar, Inc.</p>
+                        <p>Role: LLM RAG system and cloud server development</p>
+                        <p>Tools: FastAPI, Python, MongoDB, Unreal Engine</p>
+                        <p class="description">An AI-driven educational app enhancing reading and comprehension.</p>
+                        <div class="buttons">
+                            <a href="#">Video Link</a>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+
+                    <div class="project-video-container">
+                        <video controls src="./video_refs/TerrenceInteraction.MP4" type="video/MP4"></video>
+                    </div>
+
+                    <div class="project-side-images">
+                        <img src="./image_refs/Terrence.png" alt="Terrence Image 1">
+                        <img src="./image_refs/MeltDown.png" alt="MeltDown Image 1">
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <div class="secondary-projects-grid">
+                    <div class="project-item">
+                        <img src="./image_refs/condemned.png" alt="Condemned Thumbnail" />
+                        <h3>Condemned</h3>
+                        <p>[WIP] 3D horror game created during IGDA's Halloween Jam 2024</p>
+                        <p><i>Character controls, screen shake, procedural animations (Unreal Engine, Blueprints)</i></p>
+                    </div>
+                    <div class="project-item">
+                        <img src="./image_refs/ghostJuke.jpg" alt="Ghost Jukebox Thumbnail" />
+                        <h3>Ghost Juke</h3>
+                        <p>[Prototype] Atmospheric Rhythm Game for <i>Studio Blue Jay</i></p>
+                        <p><i>Gameplay layout design, mechanics, and initial prototype (Unity, C#)</i></p>
+                    </div>
+                    <div class="project-item">
+                        <img src="./image_refs/tankOverboardPlus.png" alt="Tank Overboard Thumbnail" />
+                        <h3>Tank Overboard+ Edition</h3>
+                        <p>Top-Down tank game created for <i>Artificial Intelligence for Games</i></p>
+                        <p><i>Finite State Machine Controllers and Behaviors for Enemy Tanks (Unity, C#)</i></p>
+                    </div>
+                    <div class="project-item">
+                        <img src="./image_refs/NeonNet.png" alt="NeonNet Thumbnail" />
+                        <h3>NeonNet Discord RPG</h3>
+                        <p>Top-Down Turn-Based RPG playable in your Discord chat</p>
+                        <p><i>Turn-based game mechanics, ASCII map, EnemyAI, A* Pathfinding (Python, Discord.py, MySQL)</i></p>
+                    </div>
+                    <div class="project-item">
+                        <img src="./image_refs/StarboundWanderers.png" alt="Starbound Wanderers Thumbnail" />
+                        <h3>Starbound Wanderers</h3>
+                        <p>Isometric Fighting Narrative Game for <i>Studio Blue Jay</i></p>
+                        <p><i>A* Node Pathfinding, EnemyAI Agents, Narrative Trees, Narrative UI (Unity, C#)</i></p>
+                    </div>
+                    <div class="project-item">
+                        <img src="./image_refs/MonopolyTitans.png" alt="Monopoly Titans Thumbnail" />
+                        <h3>Monopoly Titans</h3>
+                        <p>2D Player vs Computer Economy Game submitted to GMTK Game Jam 2024</p>
+                        <p><i>Grid System, Placing, Buying/Selling units (Unity2D, C#)</i></p>
+                    </div>
+                    <div class="project-item">
+                        <img src="./image_refs/danddinventory.png" alt="D&D Inventory Thumbnail" />
+                        <h3>D&D Inventory</h3>
+                        <p>Dungeons and Dragons Inventory WebAPP for <i>Database Management & Systems Design</i></p>
+                        <p><i>Stats page, Database Schema, Pages, Item Add/Remove (Python, Django, PostgreSQL, HTML, CSS)</i></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <h2>Contact Me</h2>
+        <form action="mailto:blakeivorshea@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </footer>
+</body>
+</html>
