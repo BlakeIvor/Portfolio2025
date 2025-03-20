@@ -96,6 +96,7 @@ body {
     margin-top: 5px;
 }
 
+
 .project-date {
     font-size: 14px;
     color: #bdbdbd;
@@ -129,7 +130,7 @@ body {
 }
 .project-side-images {
     display: flex;
-    gap: 15px;
+    float: right;
     flex-direction: column;
     margin-top: 10px;
 }
