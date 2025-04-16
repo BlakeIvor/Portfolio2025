@@ -13,6 +13,7 @@ body h1 {
 .content {
     max-width: 1200px;
     margin:auto;
+    background-color: #617073;
 }
 
 /* Header Styling */
@@ -23,7 +24,7 @@ body h1 {
     overflow: hidden;
     position: sticky;
     top: 0;
-    background-color: #121212;
+    background-color: #617073;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0px 20px;
@@ -114,8 +115,9 @@ body h1 {
 
 
 .profile {
-    margin-top: 20px;
-    height: 600px;
+    margin-top: 70px;
+    height: 500px;
+    
 }
 
 .profile-column {
@@ -123,6 +125,7 @@ body h1 {
     width: 50%;
     align-items: center;
     text-align: center;
+    
 }
 
 .profile-column h1{
@@ -135,10 +138,16 @@ body h1 {
     clear: both;
 }
 
-
+.avatar {
+    vertical-align: middle;
+    width: 60%;
+    height: 60%;
+    border-radius: 3%;
+  }
 
 .section-description h1 {
     font-size: 32px;
+    padding: 0 20px;
 }
 
 .projects {
@@ -146,17 +155,17 @@ body h1 {
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
-    margin-top: 1rem;
 }
 
 .project-item {
     border-radius: 6px; /* curved edges */
     width: 560px;
     min-height: 400px;
-    max-height: 500px;
+    max-height: 600px;
     background-color: #232323;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-    margin: 20px;
+    margin: 10px;
+    margin-bottom: 20px;
 }
 
 .project-media-container {
@@ -169,7 +178,7 @@ body h1 {
 }
 
 .project-media-description {
-    height: 200px;
+    height: 250px;
     text-align: left;
     margin-left: 3%;
     overflow: hidden;
@@ -180,3 +189,25 @@ body h1 {
     font-size: 25px;
     max-height: 15px;
 }
+
+.footer {
+    background-color: #617073;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer form input,
+.footer form textarea {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.footer form button {
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
