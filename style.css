@@ -13,7 +13,7 @@ body h1 {
 .content {
     max-width: 1200px;
     margin:auto;
-    background-color: #617073;
+    background-color: #121212;
 }
 
 /* Header Styling */
@@ -24,7 +24,7 @@ body h1 {
     overflow: hidden;
     position: sticky;
     top: 0;
-    background-color: #617073;
+    background-color: #121212;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0px 20px;
@@ -125,9 +125,13 @@ body h1 {
 }
 
 .profile-column h1{
-    color: #fff;
+    
+    color: #617073;
 }
 
+.profile-column h2{
+    color: #E6FAFC;
+}
 .profile-row:after {
     content: "";
     display: table;
@@ -143,8 +147,10 @@ body h1 {
   }
 
 .section-description h1 {
+    text-align: center;
     font-size: 32px;
     padding: 0 20px;
+    color:#121212;
 }
 
 .projects {
@@ -198,17 +204,57 @@ body h1 {
     max-height: 15px;
 }
 
-.footer {
-    background-color: #617073;
+#experience, #education {
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+    display: flexbox;
+}
+
+.experience-card, .education-card {
+    background-color: #232323;
     padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #FF9FE5;
+    align-items: center;
     text-align: center;
 }
 
-.footer form input,
-.footer form textarea {
-    width: 80%;
-    margin-bottom: 10px;
-    padding: 10px;
+.experience-card:hover, .education-card:hover {
+    transform: translateY(-5px);
+}
+
+.experience-card h1, .education-card h1 {
+    font-size: 30px;
+    color:#AFB3F7
+}
+.experience-card h2, .education-card h2 {
+    font-size: 20px;
+}
+
+.experience-card p, .education-card p {
+    font-size: 15px;
+}
+
+.experience-card ul, .education-card ul {
+    padding-left: 20px;
+}
+
+.experience-card ul li, .education-card ul li {
+    font-size: 18px;    
+    color: #FFD4D4;
+}
+
+
+.footer {
+    color: #FFD4D4;
+    padding: 20px;
+    text-align: center;
 }
 
 .footer form button {
@@ -218,4 +264,3 @@ body h1 {
     border: none;
     cursor: pointer;
 }
-
