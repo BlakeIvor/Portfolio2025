@@ -1,0 +1,104 @@
+/* Palette based on https://coolors.co/171a21-617073-7a93ac-92bcea-afb3f7 */
+
+
+body {
+    background-color: #171A21; /* Rich black */
+}
+
+
+body h1 {
+    color:white;
+  }
+
+.content {
+    max-width: 1200px;
+    margin:auto;
+}
+
+/* Header Styling */
+.header {
+    text-align: left;
+    font-size: 30px;
+    display:flexbox;
+    overflow: hidden;
+  }
+
+.header h1 {
+    color: #92BCEA;
+    font-size: 45px;
+    max-height: 20px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+.header h2 {
+    color: #92BCEA;
+    font-size: 20px;
+}
+
+.title {
+    float: left;
+}
+
+.nav {
+    float: right;
+    transform: translate(0%, 100%);
+}
+
+.nav a {
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #92BCEA;
+    text-align:center;
+  }
+
+.nav a:hover {
+    color: #7A93AC; /* Softer hover color */
+}
+
+
+.profile {
+    background-color: #617073;
+    height: 500px;
+}
+
+.section-description h1 {
+    font-size: 32px;
+}
+
+.projects {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 30px 0px;
+}
+
+.project-item {
+    border-radius: 5px; /* curved edges */
+    width: 590px;
+    height: 500px;
+    background-color: #AFB3F7;
+}
+
+.project-media-container {
+    height: 300px;
+    background-color: #210B2C;
+    object-fit: contain;
+    align-items: center;
+}
+
+.project-media-container video {
+    max-width: 100%;
+}
+
+.project-media-description {
+    background-color: #881bbe;
+    height: 200px;
+    text-align: left;
+}
+
+.project-media-description h1 {
+    font-size: 10px;
+}
