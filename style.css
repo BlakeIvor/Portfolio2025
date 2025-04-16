@@ -26,7 +26,7 @@ body h1 {
     background-color: #121212;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 0px 20px;
     align-items: center;
 }
 
@@ -115,9 +115,27 @@ body h1 {
 
 .profile {
     margin-top: 20px;
-    
     height: 600px;
 }
+
+.profile-column {
+    float: left;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-column h1{
+    color: #fff;
+}
+
+.profile-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 
 .section-description h1 {
     font-size: 32px;
