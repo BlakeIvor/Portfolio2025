@@ -1,5 +1,7 @@
 /* Palette based on https://coolors.co/171a21-617073-7a93ac-92bcea-afb3f7 */
-
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     background-color: #121212;
@@ -12,11 +14,11 @@ body h1 {
 
 .content {
     max-width: 1200px;
-    margin:auto;
+    margin-left:auto;
+    margin-right: auto;
     background-color: #121212;
 }
 
-/* Header Styling */
 .header {
     text-align: left;
     font-size: 30px;
@@ -26,8 +28,6 @@ body h1 {
     top: 0;
     background-color: #121212;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0px 20px;
     align-items: center;
 }
 
@@ -55,11 +55,12 @@ body h1 {
 }
 
 .nav a {
-    padding: 5px 10px;
+    margin-top: auto;
+    padding: 0px 8px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     color: #E0E1DD;
-    text-align: center;
+    vertical-align: text-bottom;
 }
 
 .nav a:hover {
@@ -73,44 +74,34 @@ body h1 {
     .header {
         align-items: center;
         flex-direction: column;
-        align-items: flex-start;
         text-align: center;
         position: relative;
     }
     
     .nav {
-        
-        justify-content: flex-start;
-        width: 100%;
-        margin-top: 10px;
+        align-items: center;
     }
     
-    .nav a {
-        display: block;
+    .nav a{
         margin: 5px 0;
         font-size: 18px;
     }
     
     .header h1 {
         font-size: 22px;
-        margin: 0;
         line-height: 1.1;
     }
     
     .header h2 {
-        font-size: 12px;
+        font-size: 18px;
         line-height: 1.2;
         margin: 4px 0 0 0;
     }
 
-    .title{
-        margin: 0;
-        padding: 0;
-    }
 }
 
 .profile {
-    margin-top: 10px;
+    margin-top: 50px;
     height: 500px;
 }
 
@@ -147,10 +138,10 @@ body h1 {
   }
 
 .section-description h1 {
-    text-align: center;
+    text-align: left;
     font-size: 32px;
     padding: 0 20px;
-    color:#121212;
+    color:#ffffff;
 }
 
 .projects {
@@ -161,7 +152,6 @@ body h1 {
 }
 
 .project-item {
-    border-radius: 6px; /* curved edges */
     width: 560px;
     min-height: 400px;
     max-height: 600px;
@@ -204,11 +194,25 @@ body h1 {
     max-height: 15px;
 }
 
+@media (max-width: 768px) {
+    .project-media-description {
+      padding: 10px;
+      font-size: 16px;
+    }
+  
+    .project-media-description h4 {
+      font-size: 14px;
+      line-height: 1.4;
+    }
+  }
+
+
 #experience, #education {
     margin-top: 40px;
     align-items: center;
     text-align: center;
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
 }
 
 .experience-card, .education-card {
