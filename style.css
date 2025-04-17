@@ -187,7 +187,7 @@ body h1 {
 
 .project-media-description h1 {
     font-size: 25px;
-    max-height: 15px;
+    max-height: 25px;
 }
 
 @media (max-width: 768px) {
@@ -267,4 +267,20 @@ body h1 {
     color: #fff;
     border: none;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .profile-column {
+        width: 100%;
+        float: none;
+    }
+
+    .project-item {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .project-media-description {
+        height: auto;
+    }
 }
