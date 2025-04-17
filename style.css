@@ -119,6 +119,11 @@ body h1 {
     color: #617073;
 }
 
+.profile-column h2{
+    
+    color: white;
+}
+
 .profile-column p{
     color: #E6FAFC;
 }
